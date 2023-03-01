@@ -3,12 +3,7 @@
 class Tea : public CaffeineBeverage
 {
 public:
-	void prepareRecipe();
-
-private:
-	
-	void steepTeaBag();
-	
-	void addLemon();
+	void brew();
+	void addCondiments();
 };
 

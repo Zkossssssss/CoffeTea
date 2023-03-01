@@ -2,12 +2,19 @@
 #include <iostream>
 using namespace std;
 
+void CaffeineBeverage::prepareRecipe() {
+    boilWater();
+    brew();
+    pourInCup();
+    addCondiments();
+}
+
 void CaffeineBeverage::boilWater()
 {
 	cout << "Boiling water" << endl;
 }
 
-void CaffeineBeverage::pourInCut()
+void CaffeineBeverage::pourInCup()
 {
 	cout << "Pouring into cup" << endl;
 }

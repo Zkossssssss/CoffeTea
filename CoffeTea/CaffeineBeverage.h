@@ -2,10 +2,11 @@
 class CaffeineBeverage
 {
 public:
-	virtual void prepareRecipe() = 0;
-
+	void prepareRecipe();
+	virtual void brew() = 0;
+	virtual void addCondiments() = 0;
 protected:
 	void boilWater();
-	void pourInCut();
+	void pourInCup();
 };
 

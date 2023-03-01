@@ -9,6 +9,6 @@ int main()
 	Tea* myTea = new Tea();
 
 	myCoffe->prepareRecipe();
-	std::cout << "\n---------/n";
+	std::cout << "\n---------\n";
 	myTea->prepareRecipe();
 }

@@ -1,25 +1,16 @@
 #include "Coffee.h"
 #include <iostream>
+#include "CaffeineBeverage.h"
 using namespace std;
 
-void Coffee::prepareRecipe()
-{
-	
-	brewCoffeeGrinds();
-	
-	addSugarAndMilk();
-}
-
-
-
-void Coffee::brewCoffeeGrinds()
+void Coffee::brew()
 {
 	cout << "Dripping coffee through filter" << endl;
 }
 
 
 
-void Coffee::addSugarAndMilk()
+void Coffee::addCondiments()
 {
 	cout << "Adding sugar and milk" << endl;
 }
