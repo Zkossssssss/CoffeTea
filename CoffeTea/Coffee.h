@@ -1,13 +1,14 @@
 #pragma once
-class Coffee
+#include "CaffeineBeverage.h"
+class Coffee : public CaffeineBeverage
 {
 public:
 	void prepareRecipe();
 
 private:
-	void boilWater();
+	
 	void brewCoffeeGrinds();
-	void pourInCup();
+	
 	void addSugarAndMilk();
 };
 

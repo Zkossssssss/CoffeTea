@@ -1,13 +1,14 @@
 #pragma once
-class Tea
+#include "CaffeineBeverage.h"
+class Tea : public CaffeineBeverage
 {
 public:
 	void prepareRecipe();
 
 private:
-	void boilWater();
+	
 	void steepTeaBag();
-	void pourInCup();
+	
 	void addLemon();
 };
 
